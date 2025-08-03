@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.left img{
+    height: 32 px;
+    margin-top: 6px;
+    margin-right: 42px;
+    width: 32px;
+}
+li{
+    list-style: none;
+    padding:0 8px
+}
+.left{
+    /* background-color: red; */
+     font-weight: 650;
+    font-size: 10px;
+    font-family: 'Arial Narrow';
+}
+ .nav{
+    max-width: 90vw;
+    /* background-color: red; */
+    margin: auto;
+ }
+ .list li sup{
+    padding: 4px;
+    color: red;
+    font-size: 8px;
+ }
+ .search{
+    height: 12px;
+    width: 355px;
+    border-radius: 3px;
+    background-color: #dedfe3;
+    border: 1px solid black;
+    font-size: 10px;
+    padding: 6px 8px;
+ }
+.center{
+    /* background-color: blue; */
+    width: 60vw;
+    justify-content: flex-end;
+}
+ .right
+ {
+    /* background-color: red; */
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 33px;
+ }
+ header{
+    height: 50px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+ }
+ section{
+    width: 100vw;
+    height: auto;
+    background-color: rgb(247, 245, 244);
+ }
+ .right i{
+    font-size: large;
+ }
+ .right div{
+    text-align: center;
+    padding: 2px 6px;
+}
+.profile,.wishlist,.bag{
+    padding: 0 14px;
+}
+.main{
+    width: 100vw;
+}
+.section1 img{
+    width: 85vw;
+    height: 80%;
+    text-align: center;
+    padding-top: 10px;
+}
+.section2 img{
+    width: 80vw;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+}
+.section3 img{
+    width: 80vw;
+    height: 70%;
+    text-align: center;
+    padding: 10px;
+}
+.group img{
+    height: 280px;
+    width: 180px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    padding-top: 40px;
+    background-color: #f1e6e6f0;
+    height: 200px;
+    width: 100%;
+    border: 1px transparent;
+    margin-top: 20px;
+}
+img{
+    cursor: pointer;
+}

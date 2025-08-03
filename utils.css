@@ -1,0 +1,38 @@
+.flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-bottom{
+    align-items: flex-end;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.right-font{
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.P-10{
+    padding: 10px;
+}
+.flex-row{
+    flex-direction: column;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.text-center{
+    text-align: center;
+}
+.c-p{
+    cursor: pointer;
+}
